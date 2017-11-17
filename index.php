@@ -11,175 +11,209 @@
 	<title>2old2play</title>
 	<style>
 	
-html,body{min-height: 100%}
+  html,body{min-height: 100%}
 
 
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
+  * {box-sizing:border-box}
+  body {font-family: Verdana,sans-serif;margin:0}
+  .mySlides {display:none}
 
-/* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  height: 500px;
-  position: relative;
-  margin: auto;
-}
+  /* Slideshow container */
+  .slideshow-container {
+    width: 100%;
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
+    position: relative;
+    margin: auto;
+  }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+  .active, .dot:hover {
+    background-color: #717171;
+  }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 100%) {
+    .prev, .next,.text {font-size: 11px}
+  }
 
 
-/*--------------------------------*/
-	*{
-		margin: 0;
-		padding: 0; 
-	}
-	ul 
-	{
-		list-style-type: none;
-		overflow: hidden;
-		background-color: #111111;
-		padding: 0px 0px 0px 2.459592410400562%;
-	}
-	li
-	{
-		float: left;
-		padding: 16px 7.027406886858749%;
-		margin: 0 auto;
-	}
-	li a
-	{
-		display: block;
-		color: white;
-		text-align: center;
-		text-decoration: none;
-	}
-	li a:hover
-	{
-		background-color:#333333;
-	}
-	@media(max-width: 946px){
-		ul{ padding: 0 0 0 0; }
-	}
+  /*--------------------------------*/
+  *{
+    margin: 0;
+    padding: 0; 
+  }
+  ul 
+  {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #111111;
+    padding: 0px 0px 0px 2.459592410400562%;
+  }
+  li
+  {
+    float: left;
+    padding: 16px 7.027406886858749%;
+    margin: 0 auto;
+  }
+  li a
+  {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  li a:hover
+  {
+    background-color:#333333;
+  }
+  @media(max-width: 100%){
+    ul{ padding: 0 0 0 0; }
+  }
 </style>
 </head>
 <body style="background-color:#aaaaaa; margin:0px">
 
-<nav> <!-- menu inicial-->
-		<ul> 
-			<li><a href="#home">Inicio</a></li>
-			<li><a href="#loja">Loja</a></li>
-			<li><a href="#novidades">Novidades</a></li>
-			<li><a href="#sobre">Sobre</a></li>
-			<li><a href="#contato">Contato</a></li>
-		</ul>
-	</nav> <!-- fim do menu inicial-->
+  <nav> <!-- menu inicial-->
+    <ul> 
+     <li><a href="#home">Inicio</a></li>
+     <li><a href="#loja">Loja</a></li>
+     <li><a href="#novidades">Novidades</a></li>
+     <li><a href="#sobre">Sobre</a></li>
+     <li><a href="#contato">Contato</a></li>
+   </ul>
+ </nav> <!-- fim do menu inicial-->
 
-	<img src="2velhinhos.png" float>
+ <img src="logo.png" f  height="50%" width="100%" >
 
-<!-- ------------------------------------------------- -->
+ <!-- ------------------------------------------------- -->
 
-<div class="slideshow-container">
+ <div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="velhos.jpg" style="width:100% min-height:100%">
-  <div class="text">Caption Text</div>
-</div>
+  <div class="mySlides fade">
+    <div class="numbertext">01 / 10</div>
+    <img src="g1.jpg" style="width:100% min-height:100%">
+  </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="g2.png" style="/*width:100%*/">
-  <div class="text">Caption Two</div>
-</div>
+  <div class="mySlides fade">
+    <div class="numbertext">02 / 10</div>
+    <img src="g2.jpg" >
+  </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="g3.jpg" style="/*width:100%*/">
-  <div class="text">Caption Three</div>
+  <div class="mySlides fade">
+    <div class="numbertext">03 / 10</div>
+    <img src="g3.jpg" style="/*width:100%*/">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">04 / 10</div>
+    <img src="g4.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="g5.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numvertext">06 / 10</div>
+    <img src="g6.jpg">
+  </div>
+
+  <div class="mySlades fade">
+    <div class="numbertext">07 / /10</div>
+    <img src="g7.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">08 / 10</div>
+    <img src="g8.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext fade">09 / 10</div>
+    <img src="g9.jpg">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="g10.jpg">
+  </div>
+
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -195,43 +229,80 @@ body {font-family: Verdana,sans-serif;margin:0}
 </div>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+  /*var slideIndex = 0;
+  showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
+  function showSlides(n) {
+    //Variáveis
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    //Reset de posição
+    if (n > slides.length) {
+      slideIndex = 0;
+    }
+    else{
+      slideIndex++;
+    }
+    for(i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
+    }
+    for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    var slideIndex = 0;
+    showSlides();
+
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }*/
+
+  var array=[n]
+  function slide(){
+    avance(array)
+    voltar(array)
+    setinterval function(){
+      avance()
+    }
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+function avance(array){
+  if cont < array.length{
+    arrau[0].style.dysplay="none"
+    cont++
+    array[] style display="block"
+  }
+  else {cont = 0
+  }
 }
 </script>
 
 <!-- ------------------------------------------------- -->
 
 
-	<div> <!-- Onde fira notificações em forma de roleta-->
-		<iframe src="https://www.youtube.com/embed/iJt719UHn4U" width="100%" height="545"></iframe>
-	</div> <!-- fim de Onde fira notificações em forma de roleta-->
-	<div>
-		<embed width="100%" heigth="100%" src="rpgmito.txt">
-	 </div>
-<!-- ------------------------------------------------------------ -->
+<div> <!-- Onde fira notificações em forma de roleta-->
+  <iframe src="https://www.youtube.com/embed/hFJbLn3sbA0" frameborder="0" allowfullscreen" width="100%" height="315" ></iframe>
+</div> <!-- fim de Onde fira notificações em forma de roleta-->
+<div>
+  <embed width="100%" heigth="100%" src="rpgmito.txt">
+  </div>
+  <!-- ------------------------------------------------------------ -->
+
 </body>
 </html>
