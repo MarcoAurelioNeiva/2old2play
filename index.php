@@ -227,7 +227,7 @@
   <nav> <!-- menu inicial-->
     <ul> 
       <li><a href="#home">Inicio</a></li>
-      <li><a href="#loja">Loja</a></li>
+      <li><a href="imagens.php">imagens</a></li>
       <li><a href="#novidades">Novidades</a></li>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#contato">Contato</a></li>
