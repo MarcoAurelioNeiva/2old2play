@@ -113,37 +113,37 @@
 
 
   /*--------------------------------*/
-  *{
+  body {
     margin: 0;
-    padding: 0; 
+    background-color:#aaaaaa;
   }
-  ul 
-  {
-    list-style-type: none;
+  /*Navegador*/
+  #home{
+    margin: auto 50px;
+  }
+  .topnav {
     overflow: hidden;
     background-color: #111111;
-    padding: 0px 0px 0px 2.459592410400562%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
   }
-  li
-  {
-    float: left;
-    padding: 16px 7.027406886858749%;
-    margin: 0 auto;
-  }
-  li a
-  {
-    display: block;
-    color: white;
-    text-align: center;
+  .topnav a {
     text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 20px 7.027406886858749%;
+    text-align: center;
+    float: left;
+    font-family: 'Plaster', cursive;
   }
-  li a:hover
-  {
-    background-color:#333333;
+  .topnav a:hover {
+    background-color: #333333;
   }
-  @media(max-width: 100%){
-    ul{ padding: 0 0 0 0; }
+  .topnav a:active {
+    color: green;
   }
+  /*fim do navegador*/
 
   /*modal*/
 
@@ -166,6 +166,7 @@
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
+    z-index: 15;
   }
   .modal-content{
     margin: auto;
@@ -206,8 +207,7 @@
     font-weight: bold;
     transition: 0.3s;
   }
-  .close: hover,
-  .close: focus{
+  .close:hover{
     color:#bbb;
     text-decoration: none;
     cursor: pointer;
@@ -222,19 +222,19 @@
 
 </style>
 </head>
-<body style="background-color:#aaaaaa; margin:0px">
-
-  <nav> <!-- menu inicial-->
-    <ul> 
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="imagens.php">imagens</a></li>
-      <li><a href="#novidades">Novidades</a></li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#contato">Contato</a></li>
+<body>
+<!-- navegador -->
+<nav class="topnav">
+  <a href="index.php" id=home>Home</a>
+  <a href="imagens.php">Imagens</a>
+  <a href="">Novidades</a>
+  <a href="">Sobre</a>
+  <a href="">Contato</a>
+</nav>
     </ul>
-  </nav> <!-- fim do menu inicial-->
+  </nav> <!-- fim do navegador -->
 
-  <img src="logo.png" f  height="50%" width="100%" >
+  <img src="g0.png" height="50%" width="100%" >
 
   <!--  -->
 
