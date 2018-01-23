@@ -125,7 +125,7 @@
 		<a href="imagens.php">Imagens</a>
 		<a href="">Novidades</a>
 		<a href="">Sobre</a>
-		<a href="">Contato</a>
+		<a href="contatos.php">Contato</a>
 	</nav>
 
 <!-- imagens-->
