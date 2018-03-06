@@ -1,0 +1,29 @@
+  /*Navegador*/
+  #home{
+    margin: auto 50px;
+  }
+  .topnav {
+    top:0;
+    overflow: hidden;
+    background-color: #111111;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  .topnav a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 20px 7.027406886858749%;
+    text-align: center;
+    float: left;
+    font-family: 'Plaster', cursive;
+    transition: background-color 0.5s;
+  }
+  .topnav a:hover {
+    background-color: #333360;
+  }
+  .topnav a:active {
+    color: green;
+  }
+  /*fim do navegador*/

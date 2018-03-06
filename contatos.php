@@ -7,47 +7,17 @@
 	padding-top: 65px;
     margin: 0;
     background-color:#aaaaaa;
+    font-size: 30px;
 }
-		/*topnav*/
-.topnav{
-	overflow: hidden;
-	background-color:#111111; 
-	position: fixed;
-	width: 100%;
-	z-index: 10;
-	top: 0;
-}
-.topnav a{
-	text-decoration: none;
-	color: white;
-	font-size:17px;
-	padding: 20px 7.027406886858749%;
-	text-align: center;
-	float: left;
-    font-family: 'Plaster', cursive;
-}
-.topnav a:hover {
-    background-color: #333333;
-  }
-  .topnav a:active {
-    color: green;
-  }
-  #home{
-  	margin: auto 50px;
-		/*fim do topnav*/
-  }
+
 	</style>
 </head>
 <body>
 
 <!-- topnav -->
-<nav class="topnav">
-	<a href="index.php" id="home">Home</a>
-	<a href="imagens.php">Imagens</a>
-	<a href="">Novidades</a>
-	<a href="">Sobre</a>
-	<a href="contatos.php">Contato</a>
-</nav>
+<?php
+require_once("html/topnav.html")
+?>
 
 <!-- fim do topnav -->
 	<!-- formulario-->
@@ -75,6 +45,13 @@
 <p>E-mail: contato@hotmail.com</p>
 <p>telefone: 4002-8922</p>
 <!-- fim do formulario -->
-
+<!-- footer -->
+<?php
+require_once("html/footer.html")
+?>
+<!-- fim do footer -->
 </body>
 </html>
+<link rel="stylesheet" type="text/css" href="css/topnav.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
